@@ -1,0 +1,10 @@
+
+docker pull bonomat/nodejs-hello-world 
+
+docker run -itd --name holamundoJS -p 3000:3000 bonomat/nodejs-hello-world 
+
+docker exec -it <name/id> bash
+
+src esta el codigo 
+
+
